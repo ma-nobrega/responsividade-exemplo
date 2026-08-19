@@ -33,9 +33,6 @@ body {
     width: 1120px;
     margin: 0 auto;
     padding: 0 16px;
-    @media (max-width: 1200px) {
-        width: 100%;
-    }
 }
 
 a {
@@ -95,7 +92,7 @@ img {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 20px 0;
+        padding: 20px;
     }
 
     .logo img {
